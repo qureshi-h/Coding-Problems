@@ -32,10 +32,8 @@ int main(void)
 		else printf("%d\n", distribute_pies(distribution, students));
 
 		free(distribution);
-		getchar(); // read newline character
 	}
 }
-
 
 int distribute_pies(int* distribution, int students)
 {
