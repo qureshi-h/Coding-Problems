@@ -41,7 +41,7 @@ int distribute_pies(int* distribution, int students)
 {
 	/* Recursively finds the number of times the step needs to be repeated
 	Step 1 and 2 can be done much more elengantly if array is sorted
-	but that takes O(nlogn) average case */
+	but that takes O(nlogn) average case. Only suitable for small input size */
 
 	if (check(distribution, students)) return 0;  // step 1
 
