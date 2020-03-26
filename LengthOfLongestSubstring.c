@@ -10,9 +10,7 @@ https://leetcode.com/problems/longest-substring-without-repeating-characters/
 /* Return the length of the largest substring from
 s that contains no repeating charcaters.
 O(n) time complexity with constant space
-100% faster and lesser memory comsumption than 
-other submitted solutions */
-
+100% / 100%*/
 int lengthOfLongestSubstring(char* s) {
 
 	int  max = 0, count = 0, length = strlen(s);
