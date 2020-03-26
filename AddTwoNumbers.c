@@ -27,7 +27,7 @@ int addTwoDigits(struct ListNode* l1, struct ListNode* l2, int *carry) {
 }
 
 /* Returns sum of two reverse linked lists in O(n) time complexity
-96.05% faster than submitted solutions with 100% lesser space consumption */
+96.05% / 100% */
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
     
     struct ListNode *l3 = malloc(sizeof(*l3));
