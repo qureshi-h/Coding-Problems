@@ -20,7 +20,7 @@ void reverse_itoa(int x, char* value) {
 /* Reverses digits of a 32 digit number. 
 Returns 0 in case of integer overflow. 
 O(n) space and time complexity
-100%/100% */
+100% / 100% */
 int reverse(int x){
     
     // reverse of int min is also out of bounds
