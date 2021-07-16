@@ -10,6 +10,7 @@ class TwoSum {
     /*
     Given an array of integers nums and an integer target,
     returns the indices of the two numbers such that they add up to target.
+    99% / 95%
      */
     public int[] twoSum(int[] nums, int target) {
 
