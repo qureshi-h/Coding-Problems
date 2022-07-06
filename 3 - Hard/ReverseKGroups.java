@@ -1,13 +1,15 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
+ /**
+  * solution to https://leetcode.com/problems/reverse-nodes-in-k-group/
+  */
+ 
+ class ListNode {
+    int val;
+    ListNode next;
+    ListNode() {}
+    ListNode(int val) { this.val = val; }
+    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+}
+
 
 class ReverseKGroups {
     public ListNode reverseKGroup(ListNode head, int k) {
